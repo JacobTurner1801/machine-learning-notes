@@ -152,6 +152,8 @@ print(score_dataset(OH_X_train, OH_X_valid, y_train, y_valid))
 
 In general, one-hot encoding performs the best while dropping categorical variables performs the worst.
 
+Ordinal encoding is used when the categorical variable is ordinal, one-hot encoding is used when it isn't.
+
 ## Pipelines
 A pipeline includes preprocessing data steps and the running a model. There are several steps to this. <br>
 
